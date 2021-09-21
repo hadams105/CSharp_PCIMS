@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="PCIMS" Class="LabTemplateFeesSQLDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=NOBILSQLSERVER\MSSQLSERVER;Initial Catalog=PCIMS;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False" SettingsObjectName="PCIMS_Software.Properties.Settings" SettingsPropertyName="PCIMSConnectionString1" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.labfees" Member="labfees">
+    <Type Name="labfee">
+      <Column Name="TestID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TestDesc" Type="System.String" DbType="NVarChar(250) NOT NULL" CanBeNull="false" />
+      <Column Name="Fee" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" CanBeNull="false" />
+      <Column Name="ASTM" Type="System.String" DbType="Char(16) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>

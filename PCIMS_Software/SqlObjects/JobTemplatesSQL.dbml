@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="PCIMS" Class="JobTemplatesSQLDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=NOBILSQLSERVER\MSSQLSERVER;Initial Catalog=PCIMS;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False" SettingsObjectName="PCIMS_Software.Properties.Settings" SettingsPropertyName="PCIMSConnectionString2" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.jobtemplates" Member="jobtemplates">
+    <Type Name="jobtemplate">
+      <Column Name="DtlNbr" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TemplateId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="JobNbr" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="PCIMS" Class="LabTemplatesSQLDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=NOBILSQLSERVER\MSSQLSERVER;Initial Catalog=PCIMS;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False" SettingsObjectName="PCIMS_Software.Properties.Settings" SettingsPropertyName="PCIMSConnectionString1" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.labtemplates" Member="labtemplates">
+    <Type Name="labtemplate">
+      <Column Name="TemplateID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TemplateName" Type="System.String" DbType="Char(30)" CanBeNull="true" />
+      <Column Name="Re" Type="System.String" DbType="Char(3)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

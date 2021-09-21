@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="PCIMS" Class="JobDetailsSQLDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=NOBILSQLSERVER\MSSQLSERVER;Initial Catalog=PCIMS;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False" SettingsObjectName="PCIMS_Software.Properties.Settings" SettingsPropertyName="PCIMSConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.jobs" Member="jobs">
+    <Type Name="job">
+      <Column Name="JobNbr" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CustomerID" Type="System.String" DbType="NVarChar(8)" CanBeNull="true" />
+      <Column Name="OrderDateTime" Type="System.String" DbType="NVarChar(25)" CanBeNull="true" />
+      <Column Name="OrderBy" Type="System.String" DbType="NVarChar(15)" CanBeNull="true" />
+      <Column Name="TakenBy" Type="System.String" DbType="NVarChar(25)" CanBeNull="true" />
+      <Column Name="Vessel" Type="System.String" DbType="NVarChar(40)" CanBeNull="true" />
+      <Column Name="VesselType" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="Cargo" Type="System.String" DbType="NVarChar(40)" CanBeNull="true" />
+      <Column Name="Terminal" Type="System.String" DbType="NVarChar(40)" CanBeNull="true" />
+      <Column Name="Location" Type="System.String" DbType="NVarChar(40)" CanBeNull="true" />
+      <Column Name="InspectionDate" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="JobType" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="Eta" Type="System.String" DbType="NVarChar(15)" CanBeNull="true" />
+      <Column Name="CargoQty" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Inspector" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Splits" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="Reports" Type="System.String" DbType="NVarChar(15)" CanBeNull="true" />
+      <Column Name="Completed" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="Dist1" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="Dist2" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="Subs" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="LD" Type="System.String" DbType="NVarChar(9)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

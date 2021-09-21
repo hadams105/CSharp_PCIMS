@@ -1,0 +1,344 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F87FC797-BAE7-4723-B661-C8D2BD4D0527}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>PCIMS_Software</RootNamespace>
+    <AssemblyName>PCIMS_Software</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ControlTemplates\Base\Base_UserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlTemplates\Customer\Customer_UserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlTemplates\Customer\Customer_UserControl.Designer.cs">
+      <DependentUpon>Customer_UserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlTemplates\Invoice\Invoice_UserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlTemplates\Invoice\Invoice_UserControl.Designer.cs">
+      <DependentUpon>Invoice_UserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlTemplates\Job\AddEditJob_UserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlTemplates\Job\AddEditJob_UserControl.Designer.cs">
+      <DependentUpon>AddEditJob_UserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlTemplates\Job\JobSelect_UserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlTemplates\Job\JobSelect_UserControl.Designer.cs">
+      <DependentUpon>JobSelect_UserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlTemplates\Lab\LabSpecs\AssignTestSpecs_UserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlTemplates\Lab\LabSpecs\AssignTestSpecs_UserControl.Designer.cs">
+      <DependentUpon>AssignTestSpecs_UserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlTemplates\Lab\Reports\LabReports_UserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlTemplates\Lab\Reports\LabReports_UserControl.Designer.cs">
+      <DependentUpon>LabReports_UserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlTemplates\Lab\LabSpecs\AssignTests_UserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlTemplates\Lab\LabSpecs\AssignTests_UserControl.Designer.cs">
+      <DependentUpon>AssignTests_UserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlTemplates\Lab\LabTemplate\LabTemplateSelect_UserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlTemplates\Lab\LabTemplate\LabTemplateSelect_UserControl.Designer.cs">
+      <DependentUpon>LabTemplateSelect_UserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlTemplates\Lab\LabTemplate\LabTemplate_UserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlTemplates\Lab\LabTemplate\LabTemplate_UserControl.Designer.cs">
+      <DependentUpon>LabTemplate_UserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlTemplates\Lab\Worksheet\LabWorksheet_UserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlTemplates\Lab\Worksheet\LabWorksheet_UserControl.Designer.cs">
+      <DependentUpon>LabWorksheet_UserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\BaseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\BaseForm.Designer.cs">
+      <DependentUpon>BaseForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FeeMaintenanceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FeeMaintenanceForm.Designer.cs">
+      <DependentUpon>FeeMaintenanceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\MainInvoiceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MainInvoiceForm.Designer.cs">
+      <DependentUpon>MainInvoiceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PriceMaintenanceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PriceMaintenanceForm.Designer.cs">
+      <DependentUpon>PriceMaintenanceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PriceSelectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PriceSelectForm.Designer.cs">
+      <DependentUpon>PriceSelectForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AssignedTestObject.cs" />
+    <Compile Include="Models\CustomerObject.cs" />
+    <Compile Include="Models\JobObject.cs" />
+    <Compile Include="Models\LabFeeObject.cs" />
+    <Compile Include="Models\LabReportHeaderObject.cs" />
+    <Compile Include="Models\LabTemplateObject.cs" />
+    <Compile Include="PCIMSSettings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>PCIMSSettings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\InvoiceRepository.cs" />
+    <Compile Include="Repositories\JobRepository.cs" />
+    <Compile Include="Repositories\CustomerRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IJobRepository.cs" />
+    <Compile Include="Repositories\Interfaces\ICustomerRepository.cs" />
+    <Compile Include="Repositories\LabRepository.cs" />
+    <Compile Include="Repositories\PriceRepository.cs" />
+    <Compile Include="Services\InvoiceService.cs" />
+    <Compile Include="Services\JobService.cs" />
+    <Compile Include="Services\CustomerService.cs" />
+    <Compile Include="Services\Interfaces\IJobService.cs" />
+    <Compile Include="Services\Interfaces\ICustomerService.cs" />
+    <Compile Include="Services\LabService.cs" />
+    <Compile Include="Services\PriceService.cs" />
+    <Compile Include="Services\Utilities\Utilities.cs" />
+    <Compile Include="SqlObjects\CustomerDetailsSQL.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CustomerDetailsSQL.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="SqlObjects\InvoiceDetailsSQL.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>InvoiceDetailsSQL.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="SqlObjects\JobDetailsSQL.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>JobDetailsSQL.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="SqlObjects\JobTemplatesSQL.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>JobTemplatesSQL.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="SqlObjects\LabDetailsSQL.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LabDetailsSQL.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="SqlObjects\LabTemplateFeesSQL.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LabTemplateFeesSQL.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="SqlObjects\LabTemplatesSQL.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LabTemplatesSQL.dbml</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ControlTemplates\Customer\Customer_UserControl.resx">
+      <DependentUpon>Customer_UserControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlTemplates\Invoice\Invoice_UserControl.resx">
+      <DependentUpon>Invoice_UserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlTemplates\Job\AddEditJob_UserControl.resx">
+      <DependentUpon>AddEditJob_UserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlTemplates\Job\JobSelect_UserControl.resx">
+      <DependentUpon>JobSelect_UserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlTemplates\Lab\LabSpecs\AssignTests_UserControl.resx">
+      <DependentUpon>AssignTests_UserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlTemplates\Lab\LabSpecs\AssignTestSpecs_UserControl.resx">
+      <DependentUpon>AssignTestSpecs_UserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlTemplates\Lab\LabTemplate\LabTemplateSelect_UserControl.resx">
+      <DependentUpon>LabTemplateSelect_UserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlTemplates\Lab\LabTemplate\LabTemplate_UserControl.resx">
+      <DependentUpon>LabTemplate_UserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlTemplates\Lab\Reports\LabReports_UserControl.resx">
+      <DependentUpon>LabReports_UserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlTemplates\Lab\Worksheet\LabWorksheet_UserControl.resx">
+      <DependentUpon>LabWorksheet_UserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FeeMaintenanceForm.resx">
+      <DependentUpon>FeeMaintenanceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MainInvoiceForm.resx">
+      <DependentUpon>MainInvoiceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PriceMaintenanceForm.resx">
+      <DependentUpon>PriceMaintenanceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PriceSelectForm.resx">
+      <DependentUpon>PriceSelectForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="PCIMSSettings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>PCIMSSettings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Properties\DataSources\PCIMS_Software.SqlObjects.Customer.datasource" />
+    <None Include="Properties\DataSources\PCIMS_Software.SqlObjects.InvoiceDetail.datasource" />
+    <None Include="Properties\DataSources\PCIMS_Software.SqlObjects.job.datasource" />
+    <None Include="Properties\DataSources\PCIMS_Software.SqlObjects.labfee.datasource" />
+    <None Include="Properties\DataSources\PCIMS_Software.SqlObjects.labtemplate.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="SqlObjects\CustomerDetailsSQL.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>CustomerDetailsSQL.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SqlObjects\CustomerDetailsSQL.dbml.layout">
+      <DependentUpon>CustomerDetailsSQL.dbml</DependentUpon>
+    </None>
+    <None Include="SqlObjects\InvoiceDetailsSQL.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>InvoiceDetailsSQL.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SqlObjects\InvoiceDetailsSQL.dbml.layout">
+      <DependentUpon>InvoiceDetailsSQL.dbml</DependentUpon>
+    </None>
+    <None Include="SqlObjects\JobDetailsSQL.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>JobDetailsSQL.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SqlObjects\JobDetailsSQL.dbml.layout">
+      <DependentUpon>JobDetailsSQL.dbml</DependentUpon>
+    </None>
+    <None Include="SqlObjects\JobTemplatesSQL.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>JobTemplatesSQL.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SqlObjects\JobTemplatesSQL.dbml.layout">
+      <DependentUpon>JobTemplatesSQL.dbml</DependentUpon>
+    </None>
+    <None Include="SqlObjects\LabDetailsSQL.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>LabDetailsSQL.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SqlObjects\LabDetailsSQL.dbml.layout">
+      <DependentUpon>LabDetailsSQL.dbml</DependentUpon>
+    </None>
+    <None Include="SqlObjects\LabTemplateFeesSQL.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>LabTemplateFeesSQL.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SqlObjects\LabTemplateFeesSQL.dbml.layout">
+      <DependentUpon>LabTemplateFeesSQL.dbml</DependentUpon>
+    </None>
+    <None Include="SqlObjects\LabTemplatesSQL.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>LabTemplatesSQL.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SqlObjects\LabTemplatesSQL.dbml.layout">
+      <DependentUpon>LabTemplatesSQL.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="plugins\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,69 @@
+C:\Users\AJM\Documents\GitHub\PCIMS_Software\PCIMS_Software\bin\Debug\PCIMS_Software.exe.config
+C:\Users\AJM\Documents\GitHub\PCIMS_Software\PCIMS_Software\bin\Debug\PCIMS_Software.exe
+C:\Users\AJM\Documents\GitHub\PCIMS_Software\PCIMS_Software\bin\Debug\PCIMS_Software.pdb
+C:\Users\AJM\Documents\GitHub\PCIMS_Software\PCIMS_Software\obj\Debug\PCIMS_Software.csprojAssemblyReference.cache
+C:\Users\AJM\Documents\GitHub\PCIMS_Software\PCIMS_Software\obj\Debug\PCIMS_Software.ControlTemplates.Customer.Customer_UserControl.resources
+C:\Users\AJM\Documents\GitHub\PCIMS_Software\PCIMS_Software\obj\Debug\PCIMS_Software.ControlTemplates.Invoice.Invoice_UserControl.resources
+C:\Users\AJM\Documents\GitHub\PCIMS_Software\PCIMS_Software\obj\Debug\PCIMS_Software.ControlTemplates.Job.AddEditJob_UserControl.resources
+C:\Users\AJM\Documents\GitHub\PCIMS_Software\PCIMS_Software\obj\Debug\PCIMS_Software.ControlTemplates.JobSelect_UserControl.resources
+C:\Users\AJM\Documents\GitHub\PCIMS_Software\PCIMS_Software\obj\Debug\PCIMS_Software.ControlTemplates.Lab.LabSpecs.AssignTests_UserControl.resources
+C:\Users\AJM\Documents\GitHub\PCIMS_Software\PCIMS_Software\obj\Debug\PCIMS_Software.ControlTemplates.Lab.LabTemplateSelect_UserControl.resources
+C:\Users\AJM\Documents\GitHub\PCIMS_Software\PCIMS_Software\obj\Debug\PCIMS_Software.ControlTemplates.Lab.LabTemplate_UserControl.resources
+C:\Users\AJM\Documents\GitHub\PCIMS_Software\PCIMS_Software\obj\Debug\PCIMS_Software.ControlTemplates.LabReports_UserControl.resources
+C:\Users\AJM\Documents\GitHub\PCIMS_Software\PCIMS_Software\obj\Debug\PCIMS_Software.ControlTemplates.Lab.Worksheet.LabWorksheet_UserControl.resources
+C:\Users\AJM\Documents\GitHub\PCIMS_Software\PCIMS_Software\obj\Debug\PCIMS_Software.MainInvoiceForm.resources
+C:\Users\AJM\Documents\GitHub\PCIMS_Software\PCIMS_Software\obj\Debug\PCIMS_Software.Properties.Resources.resources
+C:\Users\AJM\Documents\GitHub\PCIMS_Software\PCIMS_Software\obj\Debug\PCIMS_Software.csproj.GenerateResource.cache
+C:\Users\AJM\Documents\GitHub\PCIMS_Software\PCIMS_Software\obj\Debug\PCIMS_Software.csproj.CoreCompileInputs.cache
+C:\Users\AJM\Documents\GitHub\PCIMS_Software\PCIMS_Software\obj\Debug\PCIMS_Software.exe
+C:\Users\AJM\Documents\GitHub\PCIMS_Software\PCIMS_Software\obj\Debug\PCIMS_Software.pdb
+C:\Users\AJM\Documents\GitHub\PCIMS_Software\PCIMS_Software\obj\Debug\PCIMS_Software.ControlTemplates.Lab.LabSpecs.AssignTestSpecs_UserControl.resources
+C:\Users\AJM\Documents\GitHub\PCIMS_Software\PCIMS_Software\obj\Debug\PCIMS_Software.Forms.FeeMaintenanceForm.resources
+C:\Users\AJM\Documents\GitHub\PCIMS_Software\PCIMS_Software\obj\Debug\PCIMS_Software.Forms.PriceMaintenanceForm.resources
+C:\Users\AJM\Documents\GitHub\PCIMS_Software\PCIMS_Software\obj\Debug\PCIMS_Software.Forms.PriceSelectForm.resources
+C:\Users\Administrator\Desktop\PCIMS_Software-master\PCIMS_Software-master\PCIMS_Software\bin\Debug\PCIMS_Software.exe.config
+C:\Users\Administrator\Desktop\PCIMS_Software-master\PCIMS_Software-master\PCIMS_Software\bin\Debug\PCIMS_Software.exe
+C:\Users\Administrator\Desktop\PCIMS_Software-master\PCIMS_Software-master\PCIMS_Software\bin\Debug\PCIMS_Software.pdb
+C:\Users\Administrator\Desktop\PCIMS_Software-master\PCIMS_Software-master\PCIMS_Software\obj\Debug\PCIMS_Software.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\PCIMS_Software-master\PCIMS_Software-master\PCIMS_Software\obj\Debug\PCIMS_Software.ControlTemplates.Customer.Customer_UserControl.resources
+C:\Users\Administrator\Desktop\PCIMS_Software-master\PCIMS_Software-master\PCIMS_Software\obj\Debug\PCIMS_Software.ControlTemplates.Invoice.Invoice_UserControl.resources
+C:\Users\Administrator\Desktop\PCIMS_Software-master\PCIMS_Software-master\PCIMS_Software\obj\Debug\PCIMS_Software.ControlTemplates.Job.AddEditJob_UserControl.resources
+C:\Users\Administrator\Desktop\PCIMS_Software-master\PCIMS_Software-master\PCIMS_Software\obj\Debug\PCIMS_Software.ControlTemplates.JobSelect_UserControl.resources
+C:\Users\Administrator\Desktop\PCIMS_Software-master\PCIMS_Software-master\PCIMS_Software\obj\Debug\PCIMS_Software.ControlTemplates.Lab.LabSpecs.AssignTests_UserControl.resources
+C:\Users\Administrator\Desktop\PCIMS_Software-master\PCIMS_Software-master\PCIMS_Software\obj\Debug\PCIMS_Software.ControlTemplates.Lab.LabSpecs.AssignTestSpecs_UserControl.resources
+C:\Users\Administrator\Desktop\PCIMS_Software-master\PCIMS_Software-master\PCIMS_Software\obj\Debug\PCIMS_Software.ControlTemplates.Lab.LabTemplateSelect_UserControl.resources
+C:\Users\Administrator\Desktop\PCIMS_Software-master\PCIMS_Software-master\PCIMS_Software\obj\Debug\PCIMS_Software.ControlTemplates.Lab.LabTemplate_UserControl.resources
+C:\Users\Administrator\Desktop\PCIMS_Software-master\PCIMS_Software-master\PCIMS_Software\obj\Debug\PCIMS_Software.ControlTemplates.LabReports_UserControl.resources
+C:\Users\Administrator\Desktop\PCIMS_Software-master\PCIMS_Software-master\PCIMS_Software\obj\Debug\PCIMS_Software.ControlTemplates.Lab.Worksheet.LabWorksheet_UserControl.resources
+C:\Users\Administrator\Desktop\PCIMS_Software-master\PCIMS_Software-master\PCIMS_Software\obj\Debug\PCIMS_Software.Forms.FeeMaintenanceForm.resources
+C:\Users\Administrator\Desktop\PCIMS_Software-master\PCIMS_Software-master\PCIMS_Software\obj\Debug\PCIMS_Software.MainInvoiceForm.resources
+C:\Users\Administrator\Desktop\PCIMS_Software-master\PCIMS_Software-master\PCIMS_Software\obj\Debug\PCIMS_Software.Forms.PriceMaintenanceForm.resources
+C:\Users\Administrator\Desktop\PCIMS_Software-master\PCIMS_Software-master\PCIMS_Software\obj\Debug\PCIMS_Software.Forms.PriceSelectForm.resources
+C:\Users\Administrator\Desktop\PCIMS_Software-master\PCIMS_Software-master\PCIMS_Software\obj\Debug\PCIMS_Software.Properties.Resources.resources
+C:\Users\Administrator\Desktop\PCIMS_Software-master\PCIMS_Software-master\PCIMS_Software\obj\Debug\PCIMS_Software.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\PCIMS_Software-master\PCIMS_Software-master\PCIMS_Software\obj\Debug\PCIMS_Software.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\PCIMS_Software-master\PCIMS_Software-master\PCIMS_Software\obj\Debug\PCIMS_Software.exe
+C:\Users\Administrator\Desktop\PCIMS_Software-master\PCIMS_Software-master\PCIMS_Software\obj\Debug\PCIMS_Software.pdb
+E:\Work\BidJob\C#Joe\Src\PCIMS_Software-master - Copy\PCIMS_Software-master\PCIMS_Software\bin\Debug\PCIMS_Software.exe.config
+E:\Work\BidJob\C#Joe\Src\PCIMS_Software-master - Copy\PCIMS_Software-master\PCIMS_Software\bin\Debug\PCIMS_Software.exe
+E:\Work\BidJob\C#Joe\Src\PCIMS_Software-master - Copy\PCIMS_Software-master\PCIMS_Software\bin\Debug\PCIMS_Software.pdb
+E:\Work\BidJob\C#Joe\Src\PCIMS_Software-master - Copy\PCIMS_Software-master\PCIMS_Software\obj\Debug\PCIMS_Software.csprojAssemblyReference.cache
+E:\Work\BidJob\C#Joe\Src\PCIMS_Software-master - Copy\PCIMS_Software-master\PCIMS_Software\obj\Debug\PCIMS_Software.ControlTemplates.Customer.Customer_UserControl.resources
+E:\Work\BidJob\C#Joe\Src\PCIMS_Software-master - Copy\PCIMS_Software-master\PCIMS_Software\obj\Debug\PCIMS_Software.ControlTemplates.Invoice.Invoice_UserControl.resources
+E:\Work\BidJob\C#Joe\Src\PCIMS_Software-master - Copy\PCIMS_Software-master\PCIMS_Software\obj\Debug\PCIMS_Software.ControlTemplates.Job.AddEditJob_UserControl.resources
+E:\Work\BidJob\C#Joe\Src\PCIMS_Software-master - Copy\PCIMS_Software-master\PCIMS_Software\obj\Debug\PCIMS_Software.ControlTemplates.JobSelect_UserControl.resources
+E:\Work\BidJob\C#Joe\Src\PCIMS_Software-master - Copy\PCIMS_Software-master\PCIMS_Software\obj\Debug\PCIMS_Software.ControlTemplates.Lab.LabSpecs.AssignTests_UserControl.resources
+E:\Work\BidJob\C#Joe\Src\PCIMS_Software-master - Copy\PCIMS_Software-master\PCIMS_Software\obj\Debug\PCIMS_Software.ControlTemplates.Lab.LabSpecs.AssignTestSpecs_UserControl.resources
+E:\Work\BidJob\C#Joe\Src\PCIMS_Software-master - Copy\PCIMS_Software-master\PCIMS_Software\obj\Debug\PCIMS_Software.ControlTemplates.Lab.LabTemplateSelect_UserControl.resources
+E:\Work\BidJob\C#Joe\Src\PCIMS_Software-master - Copy\PCIMS_Software-master\PCIMS_Software\obj\Debug\PCIMS_Software.ControlTemplates.Lab.LabTemplate_UserControl.resources
+E:\Work\BidJob\C#Joe\Src\PCIMS_Software-master - Copy\PCIMS_Software-master\PCIMS_Software\obj\Debug\PCIMS_Software.ControlTemplates.LabReports_UserControl.resources
+E:\Work\BidJob\C#Joe\Src\PCIMS_Software-master - Copy\PCIMS_Software-master\PCIMS_Software\obj\Debug\PCIMS_Software.ControlTemplates.Lab.Worksheet.LabWorksheet_UserControl.resources
+E:\Work\BidJob\C#Joe\Src\PCIMS_Software-master - Copy\PCIMS_Software-master\PCIMS_Software\obj\Debug\PCIMS_Software.Forms.FeeMaintenanceForm.resources
+E:\Work\BidJob\C#Joe\Src\PCIMS_Software-master - Copy\PCIMS_Software-master\PCIMS_Software\obj\Debug\PCIMS_Software.MainInvoiceForm.resources
+E:\Work\BidJob\C#Joe\Src\PCIMS_Software-master - Copy\PCIMS_Software-master\PCIMS_Software\obj\Debug\PCIMS_Software.Forms.PriceMaintenanceForm.resources
+E:\Work\BidJob\C#Joe\Src\PCIMS_Software-master - Copy\PCIMS_Software-master\PCIMS_Software\obj\Debug\PCIMS_Software.Forms.PriceSelectForm.resources
+E:\Work\BidJob\C#Joe\Src\PCIMS_Software-master - Copy\PCIMS_Software-master\PCIMS_Software\obj\Debug\PCIMS_Software.Properties.Resources.resources
+E:\Work\BidJob\C#Joe\Src\PCIMS_Software-master - Copy\PCIMS_Software-master\PCIMS_Software\obj\Debug\PCIMS_Software.csproj.GenerateResource.cache
+E:\Work\BidJob\C#Joe\Src\PCIMS_Software-master - Copy\PCIMS_Software-master\PCIMS_Software\obj\Debug\PCIMS_Software.csproj.CoreCompileInputs.cache
+E:\Work\BidJob\C#Joe\Src\PCIMS_Software-master - Copy\PCIMS_Software-master\PCIMS_Software\obj\Debug\PCIMS_Software.exe
+E:\Work\BidJob\C#Joe\Src\PCIMS_Software-master - Copy\PCIMS_Software-master\PCIMS_Software\obj\Debug\PCIMS_Software.pdb

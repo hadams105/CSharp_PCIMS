@@ -1,2 +1,13 @@
-# CSharp_PCIMS
-PCIMS C# Desktop project
+The concept of this program is for the laboratory to enter a job with the information necessary to track it for a selected customer. The add/edit job screen has all the criteria needed. When a job is added to the database it is assigned the next sequential number. When a user goes into the system they can locate the job they are working on and select it. Any work they do from that point on is all related to the selected job until they select a different one which requires them to close the job they are in and open another one.
+This is what a typical job flow looks like.
+1.	Customer calls up and requests pickup of a fuel sample. A job is added to the system for that customer with the required information on the job screen.
+2.	A sample is picked up and brought to the lab. The sample identifying info is logged into the job and one worksheet per sample is created. There can be multiple samples per job so each one creates a separate worksheet.
+3.	When a worksheet is created, a laboratory template is selected from the pre-defined templates that have been built. Each template has a number of tests assigned to it.
+4.	Each worksheet is then adjusted manually if anything needs to be added or deleted in terms of tests required, and then it is printed. (see item 1 on Work List)
+5.	The printed worksheet along with the sample are brought to the various lab equipment stations and the test is performed. As the results are gathered, they are noted on the worksheet. (Sounds archaic but they are required to keep the hard copy worksheet by law).
+6.	After all tests have been performed, the user will enter the results into the Laboratory Worksheet screen and save it. During the entry of the test results the result for numeric results should be checked against the min/max specification for that test id. If the result is outside the min/max the note field should be populated accordingly. (See item 1 on Work List)
+7.	After all results are entered, the user should be able to create a Laboratory Report. The Laboratory Report screen allows the user to select the worksheet sample shown below the grid and load it for editing. Once loaded the report data should be saved so the next time the screen is opened the reports that were already created can be edited or printed. The header section of this screen has some issues. (See item 2 on work List).
+8.	Invoice Summary buttons works allowing the user to add items and adjust prices. (See item 3 on Work List for items needed).
+
+The menu selection/screens for Open/Close Job, Edit Job, Client Maintenance, Laboratory Templates, Price Maintenance, Assign Templates, Assign Specs all work fine.
+
